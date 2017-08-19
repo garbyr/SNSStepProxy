@@ -3,12 +3,7 @@ var index = require('./StepProxy.js');
 
 // The Lambda context "done" function is called when complete with/without error
 var context = {
-    done: function (err, result) {
-        console.log('------------');
-        console.log('Context done');
-        console.log('   error:', err);
-        console.log('   result:', result);
-    }
+    invokedFunctionArn: 'arn:aws:lambda:eu-west-1:437622887029:function:SNSStepProxy'
 };
 
 // Simulated S3 bucket event
