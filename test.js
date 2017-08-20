@@ -15,7 +15,7 @@ var event = {
                     calculateSRRI: 'Yes',
                     requestUUID: 'abc123',
                     ISIN: 'x12345',
-                    NAV: 0.123,
+                    NAV: '0.123',
                     frequency: 'Weekly',
                     category: 'Market',
                     user: 'Gary',
